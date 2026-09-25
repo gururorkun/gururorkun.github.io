@@ -3,42 +3,146 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gurur Orkun Ürensel – Uygulamalar</title>
+<meta name="description" content="Gurur Orkun Ürensel tarafından geliştirilen iOS uygulamaları, destek ve gizlilik bilgileri.">
+<meta name="theme-color" content="#0b1220">
+<title>Gurur Orkun Ürensel | iOS Uygulamaları</title>
 <style>
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.6;max-width:860px;margin:0 auto;padding:40px 20px;color:#1d1d1f;background:#f5f5f7}
-main{background:#fff;border-radius:20px;padding:32px}
-h1{margin-top:0} h2{margin-top:32px}
-.card{padding:20px;margin:16px 0;background:#f5f5f7;border-radius:14px}
-a{color:#06c}
-.links a{margin-right:18px}
+:root{--bg:#f6f8fb;--surface:#fff;--text:#101828;--muted:#667085;--line:#e4e7ec;--accent:#2563eb;--accent2:#1d4ed8;--dark:#0b1220}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Segoe UI",Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.container{width:min(1080px,calc(100% - 40px));margin:auto}
+header{background:linear-gradient(135deg,#0b1220 0%,#172554 100%);color:#fff;padding:22px 0}
+nav{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-weight:700;letter-spacing:-.02em}
+.navlinks{display:flex;gap:22px;font-size:14px;color:#dbeafe}
+.navlinks a:hover{text-decoration:underline}
+.hero{background:linear-gradient(135deg,#0b1220 0%,#172554 100%);color:#fff;padding:72px 0 88px}
+.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:12px;font-weight:700;color:#93c5fd}
+h1{font-size:clamp(40px,7vw,68px);line-height:1.02;letter-spacing:-.055em;margin:12px 0 22px;max-width:780px}
+.hero p{font-size:19px;max-width:680px;color:#dbeafe;margin:0}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:11px;font-weight:650;background:#fff;color:#102a56}
+.btn.secondary{background:transparent;color:#fff;border:1px solid #64748b}
+section{padding:70px 0}
+.section-title{font-size:32px;letter-spacing:-.035em;margin:0 0 10px}
+.section-lead{color:var(--muted);margin:0 0 28px;max-width:650px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:28px;box-shadow:0 8px 30px rgba(16,24,40,.05)}
+.card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:20px}
+.icon{width:52px;height:52px;border-radius:14px;background:#eff6ff;display:grid;place-items:center;font-size:25px}
+.badge{font-size:12px;font-weight:700;padding:6px 9px;border-radius:999px;background:#ecfdf3;color:#067647}
+.badge.dev{background:#f2f4f7;color:#475467}
+.card h3{font-size:24px;letter-spacing:-.025em;margin:20px 0 8px}
+.card p{color:var(--muted);margin:0 0 22px}
+.card-links{display:flex;flex-wrap:wrap;gap:10px}
+.link{display:inline-flex;padding:9px 13px;border:1px solid var(--line);border-radius:9px;color:var(--accent);font-size:14px;font-weight:600}
+.link.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+.link:hover{background:#eff6ff}.link.primary:hover{background:var(--accent2)}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.info .card{box-shadow:none}
+footer{background:var(--dark);color:#cbd5e1;padding:36px 0}
+footer strong{color:#fff}
+footer a{color:#bfdbfe}
+.small{font-size:13px;color:#94a3b8;margin-top:20px}
+@media(max-width:720px){.navlinks{display:none}.grid,.info{grid-template-columns:1fr}.hero{padding:55px 0 65px}.container{width:min(100% - 28px,1080px)}section{padding:52px 0}}
 </style>
 </head>
 <body>
+<header>
+<div class="container">
+<nav>
+<a class="brand" href="/">Gurur Orkun Ürensel</a>
+<div class="navlinks">
+<a href="#apps">Uygulamalar</a>
+<a href="#support">Destek</a>
+<a href="#contact">İletişim</a>
+</div>
+</nav>
+</div>
+</header>
+
 <main>
-<h1>Gurur Orkun Ürensel</h1>
-<p>Geliştirdiğim uygulamalar için resmi bilgi, destek ve gizlilik sayfaları.</p>
+<section class="hero">
+<div class="container">
+<div class="eyebrow">Independent App Developer</div>
+<h1>Basit, kullanışlı ve güvenilir uygulamalar.</h1>
+<p>iOS için günlük hayatı kolaylaştıran araçlar ve oyunlar geliştiriyorum. Her uygulama için resmi destek, gizlilik ve iletişim bilgilerine buradan ulaşabilirsiniz.</p>
+<div class="actions">
+<a class="btn" href="#apps">Uygulamaları keşfet</a>
+<a class="btn secondary" href="mailto:g.o.urensel@hotmail.com">İletişime geç</a>
+</div>
+</div>
+</section>
 
-<section class="card">
-<h2>Varlık Takip</h2>
+<section id="apps">
+<div class="container">
+<h2 class="section-title">Uygulamalar</h2>
+<p class="section-lead">Yayınlanan ve geliştirme aşamasındaki projeler.</p>
+<div class="grid">
+
+<article class="card">
+<div class="card-top"><div class="icon">▦</div><span class="badge">App Store'da</span></div>
+<h3>Varlık Takip</h3>
 <p>Kişi, varlık ve saklama yeri bilgilerini cihazınızda düzenli şekilde takip etmenize yardımcı olan iOS uygulaması.</p>
-<div class="links">
-<a href="https://apps.apple.com/app/id6814716446">App Store</a>
-<a href="/varlik-takip/support.html">Destek</a>
-<a href="/varlik-takip/privacy.html">Gizlilik Politikası</a>
+<div class="card-links">
+<a class="link primary" href="https://apps.apple.com/app/id6814716446">App Store</a>
+<a class="link" href="/varlik-takip/support.html">Destek</a>
+<a class="link" href="/varlik-takip/privacy.html">Gizlilik</a>
+</div>
+</article>
+
+<article class="card">
+<div class="card-top"><div class="icon">♞</div><span class="badge dev">Geliştiriliyor</span></div>
+<h3>Chess Cards</h3>
+<p>Satranç temalı kart oyunu. Oyun geliştirme süreci devam ediyor; yayın bilgileri hazır olduğunda burada yer alacak.</p>
+<div class="card-links">
+<a class="link" href="/chess-cards/support.html">Destek</a>
+<a class="link" href="/chess-cards/privacy.html">Gizlilik</a>
+</div>
+</article>
+
+</div>
 </div>
 </section>
 
-<section class="card">
-<h2>Chess Cards</h2>
-<p>Satranç temalı kart oyunu projesi. Uygulama geliştirme aşamasındadır.</p>
-<div class="links">
-<a href="/chess-cards/support.html">Destek</a>
-<a href="/chess-cards/privacy.html">Gizlilik Politikası</a>
+<section id="support">
+<div class="container">
+<h2 class="section-title">Destek ve gizlilik</h2>
+<p class="section-lead">Her uygulamanın kendi destek ve gizlilik sayfası bulunur.</p>
+<div class="info">
+<div class="card">
+<h3>Varlık Takip</h3>
+<p>Uygulama kullanımı, geri bildirim ve destek talepleri için.</p>
+<a class="link primary" href="/varlik-takip/support.html">Destek sayfası</a>
+</div>
+<div class="card">
+<h3>Chess Cards</h3>
+<p>Oyunla ilgili destek ve gizlilik bilgileri için.</p>
+<a class="link" href="/chess-cards/support.html">Destek sayfası</a>
+</div>
+</div>
 </div>
 </section>
 
-<h2>İletişim</h2>
-<p>Destek ve gizlilikle ilgili konular için <a href="mailto:g.o.urensel@hotmail.com">g.o.urensel@hotmail.com</a> adresinden ulaşabilirsiniz.</p>
+<section id="contact">
+<div class="container">
+<h2 class="section-title">İletişim</h2>
+<div class="card">
+<p style="margin:0 0 14px;color:var(--muted)">Destek, geri bildirim veya gizlilikle ilgili sorularınız için e-posta gönderebilirsiniz.</p>
+<a class="link primary" href="mailto:g.o.urensel@hotmail.com">g.o.urensel@hotmail.com</a>
+</div>
+</div>
+</section>
 </main>
+
+<footer>
+<div class="container">
+<strong>Gurur Orkun Ürensel</strong>
+<p class="small">iOS uygulamaları ve oyunlar için resmi geliştirici sitesi.</p>
+<p class="small">© 2026 Gurur Orkun Ürensel · <a href="/varlik-takip/privacy.html">Gizlilik</a> · <a href="mailto:g.o.urensel@hotmail.com">İletişim</a></p>
+</div>
+</footer>
 </body>
 </html>
