@@ -1,8 +1,56 @@
 <!doctype html>
-<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Varlık Takip</title></head><body>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Varlık Takip | Gurur Orkun Ürensel</title>
+<style>
+:root{--bg:#f6f8fb;--surface:#fff;--text:#101828;--muted:#667085;--line:#e4e7ec;--blue:#2563eb;--blue-dark:#1d4ed8}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.6}
+.container{width:min(920px,calc(100% - 32px));margin:auto}
+header{background:#0b1220;color:#fff;padding:18px 0}
+nav{display:flex;justify-content:space-between;align-items:center;gap:20px}
+.brand{font-weight:700}.back{color:#cbd5e1;font-size:14px}
+main{padding:46px 0 70px}.hero{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:32px;margin-bottom:20px}
+h1{font-size:clamp(32px,6vw,48px);line-height:1.08;letter-spacing:-.04em;margin:0 0 12px}
+.lead{color:var(--muted);font-size:17px;max-width:680px;margin:0 0 24px}
+.actions{display:flex;flex-wrap:wrap;gap:10px}.btn{display:inline-flex;padding:11px 16px;border-radius:10px;font-weight:650;border:1px solid var(--line);color:var(--blue);background:#fff}.btn.primary{background:var(--blue);border-color:var(--blue);color:#fff}.btn.primary:hover{background:var(--blue-dark)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px}.card h2{font-size:20px;margin:0 0 12px}.card p{color:var(--muted);margin:0 0 16px}
+.qr-wrap{display:flex;align-items:center;gap:20px}.qr{width:112px;height:112px;image-rendering:pixelated;border:1px solid var(--line);border-radius:10px;padding:7px;background:#fff;flex:none}.qr-copy{font-size:14px;color:var(--muted)}
+footer{padding:26px 0 40px;color:#667085;font-size:13px;text-align:center}
+@media(max-width:650px){.grid{grid-template-columns:1fr}.hero{padding:25px}.qr-wrap{align-items:flex-start}.qr{width:92px;height:92px}.container{width:min(100% - 24px,920px)}}
+</style>
+</head>
+<body>
+<header><div class="container"><nav><a class="brand" href="/">Gurur Orkun Ürensel</a><a class="back" href="/">Tüm uygulamalar</a></nav></div></header>
+<main><div class="container">
+<section class="hero">
 <h1>Varlık Takip</h1>
-<p>Kişi, varlık ve saklama yeri bilgilerinizi cihazınızda düzenli şekilde takip etmenize yardımcı olur.</p>
-<p><a href="https://apps.apple.com/app/id6814716446">App Store</a></p>
-<p><a href="support.html">Destek</a> · <a href="privacy.html">Gizlilik Politikası</a></p>
-</body></html>
+<p class="lead">Kişi, varlık ve saklama yeri bilgilerinizi cihazınızda düzenli şekilde takip etmenize yardımcı olan iOS uygulaması.</p>
+<div class="actions">
+<a class="btn primary" href="https://apps.apple.com/app/id6814716446">App Store'da Görüntüle</a>
+<a class="btn" href="support.html">Destek</a>
+<a class="btn" href="privacy.html">Gizlilik</a>
+</div>
+</section>
+<section class="grid">
+<article class="card">
+<h2>Öne çıkan özellikler</h2>
+<p>Birden fazla kişi için varlık takibi, farklı varlık türleri, banka ve saklama yeri bilgileri, toplam görünümü, analiz, işlem geçmişi, filtreleme ve arama.</p>
+</article>
+<article class="card">
+<h2>Uygulama hakkında</h2>
+<p>Varlık Takip yatırım işlemi veya para transferi yapmaz. Kullanıcı hesabı gerektirmez ve mevcut sürümde temel varlık kayıtları cihaz üzerinde tutulur.</p>
+</article>
+</section>
+<section class="card" style="margin-top:20px">
+<h2>iPhone'da hızlıca açın</h2>
+<div class="qr-wrap">
+<img class="qr" src="app-store-qr.svg" alt="Varlık Takip App Store QR kodu">
+<div class="qr-copy">iPhone kameranızla QR kodunu tarayarak App Store'daki Varlık Takip sayfasını açabilirsiniz.</div>
+</div>
+</section>
+</div></main>
+<footer><div class="container">© 2026 Gurur Orkun Ürensel · <a href="/varlik-takip/privacy.html">Gizlilik</a> · <a href="/varlik-takip/support.html">Destek</a></div></footer>
+</body>
+</html>
