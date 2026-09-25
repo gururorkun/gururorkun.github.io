@@ -10,7 +10,9 @@ Varlık Takip artık App Store'da yayınlandı.
 
 QR kodu iPhone kamerasıyla tarayarak da uygulama sayfasına ulaşabilirsiniz:
 
-![Varlık Takip App Store QR kodu](app-store-qr.svg)
+<p>
+  <img src="app-store-qr.svg" alt="Varlık Takip App Store QR kodu" width="180">
+</p>
 
 ## ✨ Öne çıkan özellikler
 
