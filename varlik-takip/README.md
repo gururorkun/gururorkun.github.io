@@ -4,6 +4,10 @@
 
 ## 📱 Uygulamayı indirin
 
+Güncel tanıtım ve 1.1 önizleme görselleri: **[Varlık Takip web sayfası](https://gururorkun.github.io/varlik-takip-privacy/app.html)**.
+
+Mağazada mevcut sürüm 1.0'dır. Yeni tasarım, isteğe bağlı Apple girişi ve iCloud paylaşımı 1.1 yayımlandığında kullanılabilir. Eski web adresleri güncel destek ve gizlilik sayfalarına yönlendirilir.
+
 Varlık Takip artık App Store'da yayınlandı.
 
 **[App Store'da Varlık Takip'i aç](https://apps.apple.com/app/id6814716446)**
@@ -24,7 +28,7 @@ QR kodu iPhone kamerasıyla tarayarak da uygulama sayfasına ulaşabilirsiniz:
 - 📈 Varlık analizi
 - 🕒 İşlem tarihçesi
 - 🔎 Filtreleme ve arama
-- 🔐 Kullanıcı hesabı veya giriş gerektirmez
+- 🔐 Yerel çalışma alanı hesap açmadan kullanılır
 
 ## 📋 Uygulama hakkında
 
@@ -34,11 +38,11 @@ Uygulama; yatırım işlemi veya para transferi gerçekleştirmez. Farklı para 
 
 ## 🔒 Gizlilik
 
-[Varlık Takip Gizlilik Politikası](https://gururorkun.github.io/varlik-takip/privacy.html)
+[Varlık Takip Gizlilik Politikası](https://gururorkun.github.io/varlik-takip-privacy/)
 
 ## 💬 Destek ve geri bildirim
 
-[Varlık Takip Destek Sayfası](https://gururorkun.github.io/varlik-takip/support.html)
+[Varlık Takip Destek Sayfası](https://gururorkun.github.io/varlik-takip-privacy/support.html)
 
 **E-posta:** g.o.urensel@hotmail.com
 
