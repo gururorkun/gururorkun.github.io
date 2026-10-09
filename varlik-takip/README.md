@@ -8,7 +8,6 @@ Varlık Takip özellikleri ve örnek ekranları: **[Uygulamanın tanıtım sayfa
 
 Varlık Takip; varlık geçmişi, yenilenmiş ekranlar, isteğe bağlı Apple girişi ve özel iCloud çalışma alanı paylaşımı sunar. Yerel kayıtlar Apple ile giriş yapıldığında otomatik olarak buluta taşınmaz.
 
-**Güncelleme öncesi veri uyarısı:** Önceki uygulama yapısındaki eski yerel veritabanı yeni çalışma alanına aktarılmaz; güncellemeden sonraki ilk açılışta temizlenir. Önemli eski kayıtları güncellemeden önce ayrıca not edin.
 
 Eski web adresleri güncel destek ve gizlilik sayfalarına yönlendirilir.
 
