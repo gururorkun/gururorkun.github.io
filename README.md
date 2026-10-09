@@ -8,7 +8,7 @@ Bu repository, iOS uygulamalarım için kullanılan **public web altyapısını*
 
 ### Varlık Takip
 
-Varlık kayıtlarını kişi, kurum ve saklama yerine göre yönetmeye yarayan iOS uygulaması. **1.1 sürümü Apple incelemesindedir**; yeni tasarım, geçmiş ve isteğe bağlı iCloud paylaşımı 1.1 sürümünün özellikleridir. Onaylanana kadar mağazada 1.0 sunulur.
+Varlık kayıtlarını kişi, kurum ve saklama yerine göre yönetmeye yarayan iOS uygulaması. Hareket geçmişi, isteğe bağlı Apple ile giriş ve iCloud çalışma alanı paylaşımı sunar.
 
 - **[App Store](https://apps.apple.com/app/id6814716446)**
 - **[Uygulama sayfası](https://gururorkun.github.io/varlik-takip/)**
