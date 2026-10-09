@@ -4,9 +4,9 @@
 
 ## 📱 Uygulamayı indirin
 
-Güncel tanıtım ve 1.1 önizleme görselleri: **[Varlık Takip web sayfası](https://gururorkun.github.io/varlik-takip-privacy/app.html)**.
+Varlık Takip 1.1 özellikleri ve örnek ekranları: **[Uygulamanın güncel tanıtım sayfası](https://gururorkun.github.io/varlik-takip-privacy/app.html)**.
 
-Mağazada mevcut sürüm 1.0'dır. Yeni tasarım, isteğe bağlı Apple girişi ve iCloud paylaşımı 1.1 yayımlandığında kullanılabilir. Eski web adresleri güncel destek ve gizlilik sayfalarına yönlendirilir.
+**1.1 Apple incelemesindedir.** Onaylanana kadar App Store'da 1.0 bulunur; onaylanan 1.1 otomatik yayımlanacaktır. 1.1; yenilenmiş ekranlar, isteğe bağlı Apple girişi ve özel iCloud çalışma alanı paylaşımı sunar. Yerel kayıtlar giriş yapınca otomatik buluta taşınmaz. **1.0'dan geçişte eski yerel veritabanı 1.1 çalışma alanına aktarılmaz; ilk 1.1 açılışında temizlenir.** Önemli kayıtları güncellemeden önce ayrıca not edin. Eski web adresleri güncel destek ve gizlilik sayfalarına yönlendirilir.
 
 Varlık Takip artık App Store'da yayınlandı.
 
