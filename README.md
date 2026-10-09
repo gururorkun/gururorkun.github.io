@@ -34,9 +34,11 @@ https://gururorkun.github.io/
 ├── app-ads.txt
 ├── varlik-takip/
 │   ├── index.html
+│   ├── app.html
 │   ├── support.html
-│   └── privacy.html
-└── chess-cards/
+│   ├── privacy.html
+│   └── landing.css, style.css
+│   └── landing.css, style.css\n└── chess-cards/
     ├── index.html
     ├── support.html
     └── privacy.html

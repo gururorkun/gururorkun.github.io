@@ -4,12 +4,12 @@
 
 ## 📱 Uygulamayı indirin
 
-Varlık Takip özellikleri ve örnek ekranları: **[Uygulamanın tanıtım sayfası](https://gururorkun.github.io/varlik-takip-privacy/app.html)**.
+Varlık Takip özellikleri ve örnek ekranları: **[Uygulamanın tanıtım sayfası](https://gururorkun.github.io/varlik-takip/)**.
 
 Varlık Takip; varlık geçmişi, yenilenmiş ekranlar, isteğe bağlı Apple girişi ve özel iCloud çalışma alanı paylaşımı sunar. Yerel kayıtlar Apple ile giriş yapıldığında otomatik olarak buluta taşınmaz.
 
 
-Eski web adresleri güncel destek ve gizlilik sayfalarına yönlendirilir.
+Tanıtım, destek ve gizlilik sayfaları bu geliştirici sitesinde yayımlanır.
 
 Varlık Takip artık App Store'da yayınlandı.
 
@@ -41,11 +41,11 @@ Uygulama; yatırım işlemi veya para transferi gerçekleştirmez. Farklı para 
 
 ## 🔒 Gizlilik
 
-[Varlık Takip Gizlilik Politikası](https://gururorkun.github.io/varlik-takip-privacy/)
+[Varlık Takip Gizlilik Politikası](https://gururorkun.github.io/varlik-takip/privacy.html)
 
 ## 💬 Destek ve geri bildirim
 
-[Varlık Takip Destek Sayfası](https://gururorkun.github.io/varlik-takip-privacy/support.html)
+[Varlık Takip Destek Sayfası](https://gururorkun.github.io/varlik-takip/support.html)
 
 **E-posta:** g.o.urensel@hotmail.com
 
