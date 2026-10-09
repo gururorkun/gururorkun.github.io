@@ -17,13 +17,13 @@ Varlık kayıtlarını kişi, kurum ve saklama yerine göre yönetmeye yarayan i
 
 ### Chess Cards
 
-Satranç temalı kart oyunu. Geliştirme aşamasındadır.
+iPhone için kartlarla satranç: yerel bilgisayar oyunu ve iCloud üzerinden arkadaşlarla oyun. Türkçe/İngilizce destek ve gizlilik sayfaları güncellendi.
 
 - **[Uygulama sayfası](https://gururorkun.github.io/chess-cards/)**
 - **[Destek](https://gururorkun.github.io/chess-cards/support.html)**
 - **[Gizlilik Politikası](https://gururorkun.github.io/chess-cards/privacy.html)**
 
-App Store yayın bilgileri hazır olduğunda bu bölüm güncellenecektir.
+App Store Connect kaydı: ChessCards: Chess & Cards (6821103331). Mağaza bağlantısı inceleme ve yayın tamamlandığında erişilebilir olur.
 
 ## 🌐 Public web yapısı
 
