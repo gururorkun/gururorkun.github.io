@@ -35,6 +35,7 @@ assets/                   # Shared design and language behavior
 app-ads.txt               # Shared AdMob publisher authorization
 varlik-takip/             # App, support and privacy pages
 chess-cards/              # App, support and privacy pages
+varlik-takip-privacy/     # Legacy URL redirects, maintained here
 ```
 
 ### app-ads.txt
@@ -63,3 +64,19 @@ Bu site GitHub Pages üzerinde yayınlanmaktadır.
 ## Design and language standard
 
 All seven pages share responsive components and a persistent TR/EN selector. See [DESIGN.md](DESIGN.md) for the standard and the new-app checklist. Varlık Takip is published on the [App Store](https://apps.apple.com/app/id6814716446).
+
+## Eski Varlık Takip adresleri
+
+`/varlik-takip-privacy/`, `/varlik-takip-privacy/app.html` ve
+`/varlik-takip-privacy/support.html` bu depodaki yönlendirmelerle korunur.
+İçerik, tasarım, ikon, TR/EN ve reklam yetkilendirmesi yalnızca bu depoda yönetilir.
+Ayrı `varlik-takip-privacy` deposundaki Pages yayını kapatılınca eski adresler
+bu depodan sunulur. Yönlendirmeler dil sorgusunu ve bölüm bağlantısını korur.
+
+App Store Connect 1.1 yayınlandığı için Marketing, Support ve Privacy URL alanları
+kilitlidir. Sonraki sürümde kullanılacak adresler:
+
+- Marketing: `https://gururorkun.github.io/varlik-takip/`
+- Support: `https://gururorkun.github.io/varlik-takip/support.html`
+- Privacy: `https://gururorkun.github.io/varlik-takip/privacy.html`
+- Privacy Choices: `https://gururorkun.github.io/varlik-takip/privacy.html#privacy-choices`
