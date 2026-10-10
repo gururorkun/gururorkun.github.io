@@ -30,18 +30,11 @@ App Store Connect kaydı: ChessCards: Chess & Cards (6821103331). Mağaza bağla
 Bu repository'nin amacı uygulamalar için ortak, merkezi bir web adresi sağlamaktır:
 
 ```text
-https://gururorkun.github.io/
-├── app-ads.txt
-├── varlik-takip/
-│   ├── index.html
-│   ├── app.html
-│   ├── support.html
-│   ├── privacy.html
-│   └── landing.css, style.css
-│   └── landing.css, style.css\n└── chess-cards/
-    ├── index.html
-    ├── support.html
-    └── privacy.html
+/                         # Developer homepage (TR/EN)
+assets/                   # Shared design and language behavior
+app-ads.txt               # Shared AdMob publisher authorization
+varlik-takip/             # App, support and privacy pages
+chess-cards/              # App, support and privacy pages
 ```
 
 ### app-ads.txt
@@ -67,3 +60,6 @@ Destek, geri bildirim veya gizlilikle ilgili sorular için:
 ---
 
 Bu site GitHub Pages üzerinde yayınlanmaktadır.
+## Design and language standard
+
+All seven pages share responsive components and a persistent TR/EN selector. See [DESIGN.md](DESIGN.md) for the standard and the new-app checklist. Varlık Takip is published on the [App Store](https://apps.apple.com/app/id6814716446).
