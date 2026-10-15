@@ -17,13 +17,12 @@ Varlık kayıtlarını kişi, kurum ve saklama yerine göre yönetmeye yarayan i
 
 ### Chess Cards
 
-iPhone için kartlarla satranç: yerel bilgisayar oyunu ve iCloud üzerinden arkadaşlarla oyun. Türkçe/İngilizce destek ve gizlilik sayfaları güncellendi.
+iPhone için kartlarla satranç: üç zorluk seviyesinde bilgisayara karşı çevrimdışı oyun, iCloud ile arkadaş daveti, rastgele rakip bulma ve rövanş. Türkçe/İngilizce destek ve gizlilik sayfaları sunulur.
 
+- **[App Store](https://apps.apple.com/app/id6821103331)**
 - **[Uygulama sayfası](https://gururorkun.github.io/chess-cards/)**
 - **[Destek](https://gururorkun.github.io/chess-cards/support.html)**
 - **[Gizlilik Politikası](https://gururorkun.github.io/chess-cards/privacy.html)**
-
-App Store Connect kaydı: ChessCards: Chess & Cards (6821103331). Mağaza bağlantısı inceleme ve yayın tamamlandığında erişilebilir olur.
 
 ## 🌐 Public web yapısı
 
@@ -73,8 +72,7 @@ All seven pages share responsive components and a persistent TR/EN selector. See
 Ayrı `varlik-takip-privacy` deposundaki Pages yayını kapatılınca eski adresler
 bu depodan sunulur. Yönlendirmeler dil sorgusunu ve bölüm bağlantısını korur.
 
-App Store Connect 1.1 yayınlandığı için Marketing, Support ve Privacy URL alanları
-kilitlidir. Sonraki sürümde kullanılacak adresler:
+Varlık Takip'in App Store bağlantılarında kullanılan adresler:
 
 - Marketing: `https://gururorkun.github.io/varlik-takip/`
 - Support: `https://gururorkun.github.io/varlik-takip/support.html`
