@@ -37,7 +37,20 @@ QR kodu iPhone kamerasıyla tarayarak da uygulama sayfasına ulaşabilirsiniz:
 
 Varlık Takip ile farklı kişilerin varlıklarını tek bir yerde kayıt altında tutabilir, aynı varlığın farklı kişilerdeki toplamını görebilir ve varlıkların saklama yerlerini takip edebilirsiniz.
 
-Uygulama; yatırım işlemi veya para transferi gerçekleştirmez. Farklı para birimleri ve parasal olmayan varlıklar arasında otomatik kur dönüşümü veya parasal değerleme yapmaz.
+Uygulama banka hesabına bağlanmaz; yatırım tavsiyesi, anlık işlem fiyatı, gerçek yatırım işlemi veya para transferi sunmaz.
+
+## 1.2 için hazırlanan yenilikler
+
+Bu özellikler geliştirme sürümünde doğrulanan kaynakta bulunur; App Store'da 1.2 henüz yayımlanmadı.
+
+- Desteklenen döviz ve altın için referans kurlarla tahmini TL değerleri.
+- Pozitif, fiyatlandırılabilen TL, döviz ve altın kayıtları için dağılım grafiği.
+- Referans kur kaynakları, tarihleri ve son kontrol bilgileri.
+- Kişisel ve birden fazla paylaşılan iCloud çalışma alanı arasında geçiş.
+
+Menkul kıymetler, diğer varlıklar ve fiyatı bulunamayan kayıtlar tahmini toplama dahil edilmez. Referans değerler yaklaşık ve bilgilendirme amaçlıdır; bağlantı veya kaynak kullanılamadığında son kayıtlı kurlar gösterilebilir.
+
+Güncel geliştirme arayüzünün anonim gerçek ekran görüntüleri henüz bu sayfaya eklenmemiştir.
 
 ## 🔒 Gizlilik
 
@@ -52,3 +65,4 @@ Uygulama; yatırım işlemi veya para transferi gerçekleştirmez. Farklı para 
 ---
 
 © 2026 Gurur Orkun Ürensel
+
