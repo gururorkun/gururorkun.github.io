@@ -53,3 +53,9 @@ Uygulama banka hesabına bağlanmaz; yatırım tavsiyesi, anlık işlem fiyatı,
 
 © 2026 Gurur Orkun Ürensel
 
+
+
+
+## Gerçek ekran önizlemeleri
+
+Geliştirme arayüzünün Türkçe ve İngilizce gerçek ekran görüntüleri [tanıtım sayfasında](https://gururorkun.github.io/varlik-takip/#screenshots) yer alır. Görseller yalnız anonim örnek verilerle, mevcut imzalı uygulamanın izole simülatör kopyasından alınmıştır. 1.2 henüz App Store’da yayımlanmamıştır; ekranlar geliştirme önizlemesidir.
