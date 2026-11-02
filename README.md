@@ -19,9 +19,12 @@ Varlık kayıtlarını kişi, kurum ve saklama yerine göre yönetmeye yarayan i
 
 iPhone için kartlarla satranç: üç zorluk seviyesinde bilgisayara karşı çevrimdışı oyun, iCloud ile arkadaş daveti, rastgele rakip bulma ve rövanş. Türkçe/İngilizce destek ve gizlilik sayfaları sunulur.
 
-- **[App Store](https://apps.apple.com/app/id6821103331)**
-- **[Uygulama sayfası](https://gururorkun.github.io/chess-cards/)**
+- **[App Store — şimdi indir](https://apps.apple.com/app/id6821103331)**
+- **[Tanıtım ve özellikler](https://gururorkun.github.io/chess-cards/)**
+- **[Kısa App Store bağlantısı](https://gururorkun.github.io/chess-cards/app.html)**
+- **[ChessCards proje bilgileri](chess-cards/README.md)**
 - **[Destek](https://gururorkun.github.io/chess-cards/support.html)**
+
 - **[Gizlilik Politikası](https://gururorkun.github.io/chess-cards/privacy.html)**
 
 ## 🌐 Public web yapısı
