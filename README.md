@@ -15,7 +15,7 @@ Varlık kayıtlarını kişi, kurum ve saklama yerine göre yönetmeye yarayan i
 - **[Destek](https://gururorkun.github.io/varlik-takip/support.html)**
 - **[Gizlilik Politikası](https://gururorkun.github.io/varlik-takip/privacy.html)**
 
-### Chess Cards
+### ChessCards
 
 iPhone için kartlarla satranç: üç zorluk seviyesinde bilgisayara karşı çevrimdışı oyun, iCloud ile arkadaş daveti, rastgele rakip bulma ve rövanş. Türkçe/İngilizce destek ve gizlilik sayfaları sunulur.
 
@@ -24,7 +24,6 @@ iPhone için kartlarla satranç: üç zorluk seviyesinde bilgisayara karşı çe
 - **[Kısa App Store bağlantısı](https://gururorkun.github.io/chess-cards/app.html)**
 - **[ChessCards proje bilgileri](chess-cards/README.md)**
 - **[Destek](https://gururorkun.github.io/chess-cards/support.html)**
-
 - **[Gizlilik Politikası](https://gururorkun.github.io/chess-cards/privacy.html)**
 
 ## 🌐 Public web yapısı
