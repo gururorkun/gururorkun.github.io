@@ -55,3 +55,19 @@
 @media(max-width:900px){.borc .hero{grid-template-columns:1fr;gap:38px}.borc-visual{max-width:540px;width:100%;justify-self:center}}
 @media(max-width:800px){.borc .feature-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.borc .feature{padding:21px}}
 @media(max-width:540px){.borc .feature-grid{grid-template-columns:1fr}.borc-hero h1{font-size:clamp(40px,10vw,54px)}.borc-visual{padding:20px 13px 15px}.borc-device{padding:18px 14px}.borc-metric{padding:14px 10px;min-height:88px}.borc-metric strong{font-size:19px}.borc-mock-title{font-size:23px}}
+
+
+/* Homepage Borç Takip spotlight — spans both grid columns on wide layouts. */
+.home .borc-home-card{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.03fr) minmax(0,0.97fr);align-items:center;gap:32px}
+.home .borc-home-main{max-width:550px}
+.home .borc-home-main>p{max-width:530px}
+.home .borc-home-art{background:#e9f2f7;border:1px solid #d5e2e9;border-radius:22px;padding:24px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.home .borc-home-label{font-size:10px;letter-spacing:.16em;color:#255c7b;font-weight:750;padding-bottom:8px}
+.home .borc-home-tile{background:#fff;border-radius:14px;padding:14px;display:flex;gap:14px;align-items:center;color:#193044}
+.home .borc-home-tile>div{display:flex;flex-direction:column;gap:3px;flex:1;min-width:0}
+.home .borc-home-tile strong{font-size:14px;line-height:1.35}
+.home .borc-home-tile small{font-size:11px;color:#536673}
+.home .borc-home-tile>span:last-child{color:#55829b}
+.home .borc-home-tile-icon{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:#e9f2f7;color:#255c7b;font-size:23px;flex:none}
+.home .borc-home-caption{font-size:10px;color:#647e8b;margin-top:6px}
+@media(max-width:800px){.home .borc-home-card{grid-template-columns:1fr;gap:22px}.home .borc-home-art{padding:18px}}
