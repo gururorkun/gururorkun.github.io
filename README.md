@@ -26,6 +26,14 @@ iPhone için kartlarla satranç: üç zorluk seviyesinde bilgisayara karşı çe
 - **[Destek](https://gururorkun.github.io/chess-cards/support.html)**
 - **[Gizlilik Politikası](https://gururorkun.github.io/chess-cards/privacy.html)**
 
+### Borç Takip
+
+Borç ve taksit planları, yaklaşan ödemeler, gelir kayıtları, kredi kartı harcamaları ve 12 aylık nakit akışını düzenlemek için geliştirilen iOS uygulaması. Ürün tanıtımı Türkçe/İngilizce olarak hazırlanmıştır. App Store yayını henüz doğrulanmadığı için **Yakında** bilgisi korunur.
+
+- **[Tanıtım ve özellikler](https://gururorkun.github.io/borc-takip/)**
+- **[Borç Takip site bilgileri](borc-takip/README.md)**
+- **[Destek](https://gururorkun.github.io/borc-takip/support.html)**
+- **[Gizlilik Politikası](https://gururorkun.github.io/borc-takip/privacy.html)**
 ## 🌐 Public web yapısı
 
 Bu repository'nin amacı uygulamalar için ortak, merkezi bir web adresi sağlamaktır:
@@ -36,6 +44,7 @@ assets/                   # Shared design and language behavior
 app-ads.txt               # Shared AdMob publisher authorization
 varlik-takip/             # App, support and privacy pages
 chess-cards/              # App, support and privacy pages
+borc-takip/               # Product landing, support and privacy pages
 ```
 
 ### app-ads.txt
