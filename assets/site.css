@@ -71,3 +71,19 @@
 .home .borc-home-tile-icon{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:#e9f2f7;color:#255c7b;font-size:23px;flex:none}
 .home .borc-home-caption{font-size:10px;color:#647e8b;margin-top:6px}
 @media(max-width:800px){.home .borc-home-card{grid-template-columns:1fr;gap:22px}.home .borc-home-art{padding:18px}}
+
+/* Homepage: one shared card presentation for every app. */
+.home #apps .app-card{display:flex;flex-direction:column;min-width:0}
+.home #apps .app-card h3{margin:18px 0 12px}
+.home #apps .app-card>p{margin:0 0 22px;line-height:1.7}
+.home #apps .app-card .card-actions{margin-top:auto}
+.home #apps .app-card .card-actions .button{margin:0;min-width:190px}
+.home #apps .app-card .card-links{margin-top:18px}
+.home #apps .app-card .app-badge{max-width:calc(100% - 92px);text-align:center;line-height:1.45}
+.home #apps .app-card .app-store-badge{text-decoration:none}
+.home #apps .app-card .app-store-badge:hover{text-decoration:underline}
+@media(max-width:420px){
+ .home #apps .app-card .card-top{align-items:flex-start}
+ .home #apps .app-card .app-badge{font-size:11px;padding:7px 10px}
+ .home #apps .app-card .card-actions .button{width:100%}
+}
