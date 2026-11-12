@@ -13,6 +13,8 @@
       if (el.tagName === 'META') el.content = el.dataset[next];
       else el.textContent = el.dataset[next];
     });
+    document.querySelectorAll('[data-tr-aria][data-en-aria]').forEach(el => el.setAttribute('aria-label', el.dataset[next + 'Aria']));
+    document.querySelectorAll('[data-tr-alt][data-en-alt]').forEach(el => el.setAttribute('alt', el.dataset[next + 'Alt']));
     document.querySelectorAll('[data-content-lang]').forEach(el => { el.hidden = el.dataset.contentLang !== next; });
     document.querySelectorAll('[data-language]').forEach(el => el.setAttribute('aria-pressed', String(el.dataset.language === next)));
     if (persist || requested) { try { localStorage.setItem(key, next); } catch (_) {} }
