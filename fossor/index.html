@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#0c1318">
-<title data-tr="FOSSOR | iPhone Madencilik Oyunu" data-en="FOSSOR | Idle Mining Game for iPhone">FOSSOR | iPhone Madencilik Oyunu</title>
+<title data-tr="FOSSOR | iPhone için Madencilik Oyunu" data-en="FOSSOR | Mining Game for iPhone">FOSSOR | iPhone için Madencilik Oyunu</title>
 <meta name="description" content="FOSSOR'da maden katları aç, cevher çıkar, asansör ve kamyonla taşı, depoda sat; yükseltmelerle üretim zincirini büyüt." data-tr="FOSSOR'da maden katları aç, cevher çıkar, asansör ve kamyonla taşı, depoda sat; yükseltmelerle üretim zincirini büyüt." data-en="Dig deeper in FOSSOR. Mine ore, move it with an elevator and truck, sell at the warehouse, and upgrade your production chain.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="FOSSOR | iPhone Madencilik Oyunu" data-tr="FOSSOR | iPhone Madencilik Oyunu" data-en="FOSSOR | Idle Mining Game for iPhone">
+<meta property="og:title" content="FOSSOR | iPhone için Madencilik Oyunu" data-tr="FOSSOR | iPhone için Madencilik Oyunu" data-en="FOSSOR | Mining Game for iPhone">
 <meta property="og:description" content="FOSSOR'da maden katları aç, cevher çıkar, asansör ve kamyonla taşı, depoda sat; yükseltmelerle üretim zincirini büyüt." data-tr="FOSSOR'da maden katları aç, cevher çıkar, asansör ve kamyonla taşı, depoda sat; yükseltmelerle üretim zincirini büyüt." data-en="Dig deeper in FOSSOR. Mine ore, move it with an elevator and truck, sell at the warehouse, and upgrade your production chain.">
 <meta property="og:url" content="https://gururorkun.github.io/fossor/">
 <meta property="og:image" content="https://gururorkun.github.io/fossor/assets/icon.png">
@@ -16,8 +16,9 @@
 <link rel="icon" type="image/png" href="assets/icon.png">
 <link rel="apple-touch-icon" href="assets/icon.png">
 <script src="../assets/language.js"></script>
+<script src="app-store.js" defer></script>
 <link rel="stylesheet" href="../assets/site.css">
-<link rel="stylesheet" href="fossor.css?v=1">
+<link rel="stylesheet" href="fossor.css?v=2">
 </head>
 <body class="fossor">
 <a class="skip" href="#main"><span data-tr="İçeriğe geç" data-en="Skip to content">İçeriğe geç</span></a>
@@ -28,6 +29,7 @@
 <a href="./">FOSSOR</a>
 <a href="support.html"><span data-tr="Destek" data-en="Support">Destek</span></a>
 <a href="privacy.html"><span data-tr="Gizlilik" data-en="Privacy">Gizlilik</span></a>
+<a data-fossor-app-store-link hidden><span data-tr="App Store" data-en="App Store">App Store</span></a>
 </nav>
 <div class="language" role="group" aria-label="Dil seçimi" data-tr-aria="Dil seçimi" data-en-aria="Language selection">
 <button type="button" lang="tr" data-language="tr" aria-pressed="true">TR</button>
@@ -42,10 +44,11 @@
 Madenini büyüt.</h1>
 <p class="intro" data-tr="Maden katlarını aç, cevher çıkar, asansörle yüzeye taşı, kamyonla depoya ulaştır. Satışlardan kazandığın altınla madeni ve bütün üretim zincirini geliştir." data-en="Unlock mine shafts, extract ore, lift it to the surface and deliver it to the warehouse by truck. Use gold from sales to upgrade your mine and the entire production chain.">Maden katlarını aç, cevher çıkar, asansörle yüzeye taşı, kamyonla depoya ulaştır. Satışlardan kazandığın altınla madeni ve bütün üretim zincirini geliştir.</p>
 <div class="actions">
-<a class="button" href="#features"><span data-tr="Oyunu keşfet ↓" data-en="Explore the game ↓">Oyunu keşfet ↓</span></a>
-<a class="button secondary" href="#how-it-works"><span data-tr="Nasıl oynanır? ↓" data-en="How does it work? ↓">Nasıl oynanır? ↓</span></a></div>
+<a class="button fossor-download-cta" data-fossor-app-store-link hidden><span data-tr="App Store’dan indir ↗" data-en="Download on the App Store ↗">App Store’dan indir ↗</span></a>
+<a class="button secondary" href="#features"><span data-tr="Özellikleri keşfet ↓" data-en="Explore features ↓">Özellikleri keşfet ↓</span></a>
+<a class="button secondary" href="#how-it-works"><span data-tr="Nasıl oynanır? ↓" data-en="How it works ↓">Nasıl oynanır? ↓</span></a></div>
 <div class="fossor-status">
-<span class="badge" data-tr="iOS · Geliştirme aşamasında" data-en="iOS · In development">iOS · Geliştirme aşamasında</span>
+<span class="badge" data-tr="iPhone · Türkçe ve İngilizce" data-en="iPhone · Turkish and English">iPhone · Türkçe ve İngilizce</span>
 <span data-tr="Tek oyunculu · Temel oyun çevrimdışı" data-en="Single-player · Offline core gameplay">Tek oyunculu · Temel oyun çevrimdışı</span>
 </div>
 </div>
@@ -77,8 +80,8 @@ Daha akıllı büyü.</h2><p data-tr="Her yükseltme önemli: cevheri çıkarmak
 </section>
 <section class="wrap section split fossor-bottom"><div><p class="eyebrow" data-tr="Kendi hızında" data-en="At your own pace">Kendi hızında</p><h2 data-tr="Kontrol sende.&#10;Yükseltmeler senin kararın." data-en="Your mine.&#10;Your upgrade strategy.">Kontrol sende.
 Yükseltmeler senin kararın.</h2></div><div><p data-tr="Temel oyun çevrimdışı oynanabilir. İsteğe bağlı ödüllü reklamlar ve oyun içi satın alımlar bazı ek avantajlar sunabilir; oynamak için zorunlu değildir. Reklamlar ve satın alımlar internet gerektirebilir." data-en="Core gameplay works offline. Optional rewarded ads and in-app purchases may offer extra benefits, but are not required to play. Ads and purchases may require an internet connection.">Temel oyun çevrimdışı oynanabilir. İsteğe bağlı ödüllü reklamlar ve oyun içi satın alımlar bazı ek avantajlar sunabilir; oynamak için zorunlu değildir. Reklamlar ve satın alımlar internet gerektirebilir.</p>
-<div class="actions"><a class="button" href="support.html"><span data-tr="Destek" data-en="Support">Destek</span></a><a class="button secondary" href="privacy.html"><span data-tr="Gizlilik politikası" data-en="Privacy policy">Gizlilik politikası</span></a></div>
-<p class="fossor-fine" data-tr="Görsel, oyun mekaniklerini anlatan temsili bir çizimdir; gerçek iPhone ekran görüntüsü değildir. App Store yayını henüz doğrulanmamıştır." data-en="The visual is a conceptual illustration of game mechanics, not a real iPhone screenshot. App Store availability has not yet been confirmed.">Görsel, oyun mekaniklerini anlatan temsili bir çizimdir; gerçek iPhone ekran görüntüsü değildir. App Store yayını henüz doğrulanmamıştır.</p>
+<div class="actions"><a class="button" data-fossor-app-store-link hidden><span data-tr="App Store’dan indir ↗" data-en="Download on the App Store ↗">App Store’dan indir ↗</span></a><a class="button secondary" href="support.html"><span data-tr="Destek" data-en="Support">Destek</span></a><a class="button secondary" href="privacy.html"><span data-tr="Gizlilik politikası" data-en="Privacy policy">Gizlilik politikası</span></a></div>
+<p class="fossor-fine" data-tr="Maden çizimi, oyunun mekaniklerini tanıtır; uygulamadan alınmış ekran görüntüsü değildir." data-en="The mine illustration explains game mechanics; it is not a screenshot captured from the app.">Maden çizimi, oyunun mekaniklerini tanıtır; uygulamadan alınmış ekran görüntüsü değildir.</p>
 </div></section>
 </main><footer class="wrap footer"><div><strong>Gurur Orkun Ürensel</strong>
 <p data-tr="Bağımsız iOS uygulamaları ve oyunlar." data-en="Independent iOS apps and games.">Bağımsız iOS uygulamaları ve oyunlar.</p></div>

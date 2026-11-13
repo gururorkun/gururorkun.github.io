@@ -69,3 +69,11 @@
 @media(max-width:680px){.fossor-art{height:475px}.fossor-underground{height:260px}.fossor-floor{height:75px}.fossor-sky{height:166px}.fossor-features{grid-template-columns:1fr}.fossor-steps{grid-template-columns:1fr 1fr;gap:12px}.fossor-step-arrow{display:none}.fossor-steps>div{min-height:140px}.fossor-paper .intro{font-size:16px}}
 @media(max-width:420px){.fossor h1{font-size:43px}.fossor-art{height:435px}.fossor-underground{height:239px}.fossor-floor{height:68px}.fossor-sky{height:153px}.fossor-truck{font-size:36px}.fossor-depot{padding:6px;font-size:24px}.fossor-ore{font-size:15px}.fossor-floor-name{font-size:11px}}
 @media(prefers-reduced-motion:reduce){.fossor *{animation:none!important;transition:none!important}}
+
+/* App Store buttons are configured once in app-store.js; they are absent
+   until the official Apple product URL is supplied. */
+.fossor .actions{align-items:center}
+.fossor .fossor-download-cta{box-shadow:0 9px 26px #efb95d30;font-weight:750}
+.fossor nav [data-fossor-app-store-link]{color:#f1c87b;font-weight:700}
+.fossor [data-fossor-app-store-link]:focus-visible{outline:3px solid #eec878;outline-offset:4px}
+@media(max-width:680px){.fossor .actions .button{width:100%;text-align:center}.fossor .actions{gap:10px}}

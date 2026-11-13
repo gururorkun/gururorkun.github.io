@@ -16,8 +16,9 @@
 <link rel="icon" type="image/png" href="assets/icon.png">
 <link rel="apple-touch-icon" href="assets/icon.png">
 <script src="../assets/language.js"></script>
+<script src="app-store.js" defer></script>
 <link rel="stylesheet" href="../assets/site.css">
-<link rel="stylesheet" href="fossor.css?v=1">
+<link rel="stylesheet" href="fossor.css?v=2">
 </head>
 <body class="fossor">
 <a class="skip" href="#main"><span data-tr="İçeriğe geç" data-en="Skip to content">İçeriğe geç</span></a>
@@ -28,6 +29,7 @@
 <a href="./">FOSSOR</a>
 <a href="support.html"><span data-tr="Destek" data-en="Support">Destek</span></a>
 <a href="privacy.html"><span data-tr="Gizlilik" data-en="Privacy">Gizlilik</span></a>
+<a data-fossor-app-store-link hidden><span data-tr="App Store" data-en="App Store">App Store</span></a>
 </nav>
 <div class="language" role="group" aria-label="Dil seçimi" data-tr-aria="Dil seçimi" data-en-aria="Language selection">
 <button type="button" lang="tr" data-language="tr" aria-pressed="true">TR</button>
@@ -41,7 +43,7 @@
 <h2>2. Cihazdaki oyun verileri</h2><p>Oyun ilerlemesi, altın bakiyesi, maden seviyeleri, otomasyon durumu, ödül ve satın alma haklarını uygulamanın yerel kayıt alanında tutarız. FOSSOR'u oynamak için geliştiriciye ait bir hesap oluşturman gerekmez. Temel oyun çevrimdışı çalışabilir. Uygulamayı silmen yerel oyun kayıtlarını da silebilir.</p>
 <h2>3. Apple CloudKit</h2><p>Uygulama, ödüllü reklamlar ve mağaza ürünlerinin kullanılabilirliği gibi geliştirici ayarlarını Apple CloudKit'in herkese açık veritabanından okuyabilir. Bu yapılandırma okuması, oyun ilerlemeni veya altın bakiyeni CloudKit ile eşitlemek için kullanılmaz. Apple hizmetlerinin kendi teknik veri işleme kuralları geçerlidir.</p>
 <h2>4. App Store ve StoreKit satın alımları</h2><p>İsteğe bağlı uygulama içi satın alımlar Apple tarafından işlenir. FOSSOR, satın alınan içeriği teslim etmek ve tekrarlanan ödülleri önlemek için Apple tarafından doğrulanan işlem bilgilerini ve yerel satın alma kayıtlarını kullanır. Kredi kartı bilgilerini FOSSOR üzerinden toplamayız. İade ve ücretlendirme konuları Apple üzerinden yönetilir.</p>
-<h2>5. İsteğe bağlı ödüllü reklamlar</h2><p>Ödüllü reklamlar izlemeyi seçtiğinde Unity LevelPlay ve ilişkili reklam ağı teknolojileri üzerinden sunulabilir. Reklam sunumu, ölçüm, güvenlik ve dolandırıcılığı önleme süreçleri kapsamında cihaz, teknik tanımlayıcı ve reklam etkileşim bilgileri ilgili sağlayıcılar tarafından işlenebilir. Google User Messaging Platform (UMP), gerekli bölgelerde reklam onayı ve gizlilik seçenekleri için kullanılabilir. <strong>Google AdMob reklam SDK'sı mevcut FOSSOR sürümünde etkin değildir.</strong> Reklam gösterimi bağlantıya, bölgeye, geçerli onay durumuna ve reklam stokuna bağlıdır.</p>
+<h2>5. İsteğe bağlı ödüllü reklamlar</h2><p>Ödüllü reklamlar izlemeyi seçtiğinde Unity LevelPlay ve ilişkili reklam ağı teknolojileri üzerinden sunulabilir. Reklam sunumu, ölçüm, güvenlik ve dolandırıcılığı önleme süreçleri kapsamında cihaz, teknik tanımlayıcı ve reklam etkileşim bilgileri ilgili sağlayıcılar tarafından işlenebilir. Google User Messaging Platform (UMP), gerekli bölgelerde reklam onayı ve gizlilik seçenekleri için kullanılabilir. <strong>FOSSOR şu anda Google AdMob reklamları sunmamaktadır.</strong> Reklam gösterimi bağlantıya, bölgeye, geçerli onay durumuna ve reklam stokuna bağlıdır.</p>
 <h2 id="privacy-choices">6. Gizlilik tercihleri</h2><p>Uygulama içi Ayarlar bölümünden reklam kişiselleştirme tercihini yönetebilir ve gerekli olduğunda reklam sağlayıcısının sunduğu gizlilik seçeneklerini açabilirsin. Kişiselleştirilmiş reklamları kapatmak her bölgede tüm reklamların kapandığı anlamına gelmez. Temel oyunu ödüllü reklam izlemeden oynayabilirsin.</p>
 <h2>7. Destek talepleri</h2><p>Bize e-posta gönderirsen e-posta adresini ve paylaştığın bilgileri talebine yanıt vermek amacıyla kullanırız. Gereksiz hassas bilgiler, ödeme kartı verileri veya Apple hesabı parolası gönderme.</p>
 <h2>8. Üçüncü taraf politikaları ve güncellemeler</h2><p>Apple, Unity ve Google'ın ilgili hizmetleri kendi gizlilik bildirimlerine tabidir. Uygulamanın veri işleme yapısı değişirse bu sayfayı güncelleriz.</p>
@@ -51,7 +53,7 @@
 <h2>2. On-device game data</h2><p>Game progress, gold balance, mine levels, automation status, rewards and purchase entitlements are stored in the app's local save data. You do not need to create a developer account to play FOSSOR. Core gameplay can run offline. Deleting the app may also remove local game saves.</p>
 <h2>3. Apple CloudKit</h2><p>The app may read developer configuration from Apple's public CloudKit database, such as the availability of rewarded ads and Store products. This configuration read is not used to sync your game progress or gold balance to CloudKit. Apple's own service data-processing terms apply.</p>
 <h2>4. App Store and StoreKit purchases</h2><p>Apple processes optional in-app purchases. FOSSOR uses Apple-verified transaction information and local purchase records to deliver paid content and prevent duplicate rewards. FOSSOR does not collect payment card information. Apple handles billing and refund requests.</p>
-<h2>5. Optional rewarded ads</h2><p>If you choose to watch a rewarded ad, it may be served through Unity LevelPlay and associated ad-network technology. Those providers may process device information, technical identifiers and ad interactions for delivery, measurement, security and fraud prevention. Google User Messaging Platform (UMP) may be used for consent and privacy options where required. <strong>The Google AdMob advertising SDK is not enabled in the current FOSSOR release.</strong> Ad availability depends on connectivity, region, applicable consent and available inventory.</p>
+<h2>5. Optional rewarded ads</h2><p>If you choose to watch a rewarded ad, it may be served through Unity LevelPlay and associated ad-network technology. Those providers may process device information, technical identifiers and ad interactions for delivery, measurement, security and fraud prevention. Google User Messaging Platform (UMP) may be used for consent and privacy options where required. <strong>FOSSOR does not currently serve Google AdMob ads.</strong> Ad availability depends on connectivity, region, applicable consent and available inventory.</p>
 <h2 id="privacy-choices-en">6. Privacy choices</h2><p>Open in-app Settings to manage ad-personalization preferences and, where required, the privacy options made available by the advertising provider. Disabling personalized ads does not necessarily disable all ads in every region. Core gameplay is available without watching rewarded ads.</p>
 <h2>7. Support requests</h2><p>If you email us, we use your email address and the information you share to respond to your request. Please avoid sending unnecessary sensitive details, payment card information or Apple account passwords.</p>
 <h2>8. Third-party policies and updates</h2><p>Apple, Unity and Google's relevant services have their own privacy notices. We will update this page if the app's data-handling practices change.</p>

@@ -28,7 +28,7 @@ iPhone için kartlarla satranç: üç zorluk seviyesinde bilgisayara karşı çe
 
 ### FOSSOR
 
-FOSSOR, iPhone için tek oyunculu bir madencilik oyunudur. Yeni katlar aç, cevher üret, asansör ve kamyonla taşı, depoda sat. Üretim zincirini yükseltmeler ve operatörlerle geliştir. Site Türkçe/İngilizce tanıtım, destek ve gizlilik sayfaları içerir. **App Store yayını henüz doğrulanmadığından indirme bağlantısı paylaşılmıyor.**
+FOSSOR, iPhone için tek oyunculu bir madencilik oyunudur. Yeni katlar aç, cevher üret, asansör ve kamyonla taşı, depoda sat. Üretim zincirini yükseltmeler ve operatörlerle geliştir. Site Türkçe/İngilizce tanıtım, destek ve gizlilik sayfaları içerir. App Store bağlantısı yayın gününde yalnızca `fossor/app-store.js` içindeki `APP_STORE_URL` değerine eklenir; tüm indirme butonları otomatik etkinleşir.
 
 - **[Oyun tanıtımı](https://gururorkun.github.io/fossor/)**
 - **[Destek](https://gururorkun.github.io/fossor/support.html)**
