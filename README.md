@@ -26,6 +26,14 @@ iPhone için kartlarla satranç: üç zorluk seviyesinde bilgisayara karşı çe
 - **[Destek](https://gururorkun.github.io/chess-cards/support.html)**
 - **[Gizlilik Politikası](https://gururorkun.github.io/chess-cards/privacy.html)**
 
+### FOSSOR
+
+FOSSOR, iPhone için tek oyunculu bir madencilik oyunudur. Yeni katlar aç, cevher üret, asansör ve kamyonla taşı, depoda sat. Üretim zincirini yükseltmeler ve operatörlerle geliştir. Site Türkçe/İngilizce tanıtım, destek ve gizlilik sayfaları içerir. **App Store yayını henüz doğrulanmadığından indirme bağlantısı paylaşılmıyor.**
+
+- **[Oyun tanıtımı](https://gururorkun.github.io/fossor/)**
+- **[Destek](https://gururorkun.github.io/fossor/support.html)**
+- **[Gizlilik Politikası](https://gururorkun.github.io/fossor/privacy.html)**
+
 ### Borç Takip
 
 Borç ve taksit planları, yaklaşan ödemeler, gelir kayıtları, kredi kartı harcamaları ve 12 aylık nakit akışını düzenlemek için geliştirilen iOS uygulaması. Ürün tanıtımı Türkçe/İngilizce olarak hazırlanmıştır. App Store yayını henüz doğrulanmadığı için **Yakında** bilgisi korunur.
@@ -45,6 +53,7 @@ app-ads.txt               # Shared AdMob publisher authorization
 varlik-takip/             # App, support and privacy pages
 chess-cards/              # App, support and privacy pages
 borc-takip/               # Product landing, support and privacy pages
+fossor/                   # Mining game landing, support and privacy pages
 ```
 
 ### app-ads.txt
