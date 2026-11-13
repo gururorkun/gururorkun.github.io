@@ -81,7 +81,7 @@ Destek, geri bildirim veya gizlilikle ilgili sorular için:
 Bu site GitHub Pages üzerinde yayınlanmaktadır.
 ## Design and language standard
 
-All seven pages share responsive components and a persistent TR/EN selector. See [DESIGN.md](DESIGN.md) for the standard and the new-app checklist. Varlık Takip is published on the [App Store](https://apps.apple.com/app/id6814716446).
+The app pages share responsive components and a persistent TR/EN selector. See [DESIGN.md](DESIGN.md) for the standard and the new-app checklist. Varlık Takip is published on the [App Store](https://apps.apple.com/app/id6814716446).
 
 Varlık Takip'in App Store bağlantılarında kullanılan adresler:
 

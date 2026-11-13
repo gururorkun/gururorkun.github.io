@@ -13,7 +13,7 @@ FOSSOR's public pages are hosted in the shared developer website, not in the iOS
 - Uses shared `../assets/site.css` and `../assets/language.js`, with a dedicated `fossor.css` skin.
 - Reuses the **actual icon binary** from the FOSSOR iOS repository.
 - The mine illustration is CSS artwork, **not** a real gameplay screenshot.
-- All App Store CTAs are already in place. The single launch URL in `app-store.js` activates every button, the developer homepage badge and Apple's iOS Smart App Banner.
+- All App Store CTAs are already in place. The single launch URL in `app-store.js` activates every button, the developer homepage badge and adds Smart App Banner metadata for supported iOS Safari versions.
 - Public support contact is `g.o.urensel@hotmail.com`.
 - No trackers, analytics scripts, cookies or embedded advertising are added to these static pages.
 - All navigation, marketing and policy text is localized in Turkish and English. The shared selector persists preference.
