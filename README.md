@@ -26,6 +26,16 @@ iPhone için kartlarla satranç: üç zorluk seviyesinde bilgisayara karşı çe
 - **[Destek](https://gururorkun.github.io/chess-cards/support.html)**
 - **[Gizlilik Politikası](https://gururorkun.github.io/chess-cards/privacy.html)**
 
+### VELORA
+
+VELORA, iPhone için tek oyunculu uzay strateji oyunudur. Gezegen ve kaynak yönetimi, teknoloji araştırmaları, galaksi keşfi, filo görevleri ve yeni koloniler üzerine kuruludur. Ana oyun çevrimdışı oynanabilir; ödüllü reklamlar ve uygulama içi satın alımlar isteğe bağlıdır. **App Store'da yayınlanmıştır.**
+
+- **[App Store — şimdi indir](https://apps.apple.com/app/id6834114782)**
+- **[Uygulama sayfası](https://gururorkun.github.io/velora/)**
+- **[Kısa App Store bağlantısı](https://gururorkun.github.io/velora/app.html)**
+- **[Destek](https://gururorkun.github.io/velora/support.html)**
+- **[Gizlilik Politikası](https://gururorkun.github.io/velora/privacy.html)**
+
 ### FOSSOR
 
 FOSSOR, iPhone için tek oyunculu bir madencilik oyunudur. Yeni katlar aç, cevher üret, asansör ve kamyonla taşı, depoda sat. Üretim zincirini yükseltmeler ve operatörlerle geliştir. Site Türkçe/İngilizce tanıtım, destek ve gizlilik sayfaları içerir. App Store bağlantısı yayın gününde yalnızca `fossor/app-store.js` içindeki `APP_STORE_URL` değerine eklenir; tüm indirme butonları otomatik etkinleşir.
@@ -54,6 +64,7 @@ varlik-takip/             # App, support and privacy pages
 chess-cards/              # App, support and privacy pages
 borc-takip/               # Product landing, support and privacy pages
 fossor/                   # Mining game landing, support and privacy pages
+velora/                   # Published space strategy game, App Store, support and privacy
 ```
 
 ### app-ads.txt
