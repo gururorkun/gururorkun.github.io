@@ -38,9 +38,11 @@ VELORA, iPhone için tek oyunculu uzay strateji oyunudur. Gezegen ve kaynak yön
 
 ### FOSSOR
 
-FOSSOR, iPhone için tek oyunculu bir madencilik oyunudur. Yeni katlar aç, cevher üret, asansör ve kamyonla taşı, depoda sat. Üretim zincirini yükseltmeler ve operatörlerle geliştir. Site Türkçe/İngilizce tanıtım, destek ve gizlilik sayfaları içerir. App Store bağlantısı yayın gününde yalnızca `fossor/app-store.js` içindeki `APP_STORE_URL` değerine eklenir; tüm indirme butonları otomatik etkinleşir.
+FOSSOR, iPhone için tek oyunculu bir madencilik oyunudur. Yeni katlar aç, cevher üret, asansör ve kamyonla taşı, depoda sat. Üretim zincirini yükseltmeler ve operatörlerle geliştir. Site Türkçe/İngilizce tanıtım, destek ve gizlilik sayfaları içerir. FOSSOR App Store'da yayındadır; resmi bağlantı `fossor/app-store.js` üzerinden tüm indirme düğmelerinde etkinleştirilmiştir.
 
 - **[Oyun tanıtımı](https://gururorkun.github.io/fossor/)**
+- **[App Store — şimdi indir](https://apps.apple.com/us/app/fossor/id6834523577)**
+- **[Kısa App Store bağlantısı](https://gururorkun.github.io/fossor/app.html)**
 - **[Destek](https://gururorkun.github.io/fossor/support.html)**
 - **[Gizlilik Politikası](https://gururorkun.github.io/fossor/privacy.html)**
 

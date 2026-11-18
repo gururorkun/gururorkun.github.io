@@ -6,6 +6,8 @@ FOSSOR's public pages are hosted in the shared developer website, not in the iOS
 - [Support (TR + EN)](https://gururorkun.github.io/fossor/support.html)
 - [Privacy Policy (TR + EN)](https://gururorkun.github.io/fossor/privacy.html)
 - [Privacy Choices](https://gururorkun.github.io/fossor/privacy.html#privacy-choices)
+- [App Store — FOSSOR](https://apps.apple.com/us/app/fossor/id6834523577)
+- [App Store short link](https://gururorkun.github.io/fossor/app.html)
 - [Developer homepage](https://gururorkun.github.io/)
 
 ## Site implementation
@@ -13,7 +15,7 @@ FOSSOR's public pages are hosted in the shared developer website, not in the iOS
 - Uses shared `../assets/site.css` and `../assets/language.js`, with a dedicated `fossor.css` skin.
 - Reuses the **actual icon binary** from the FOSSOR iOS repository.
 - The mine illustration is CSS artwork, **not** a real gameplay screenshot.
-- All App Store CTAs are already in place. The single launch URL in `app-store.js` activates every button, the developer homepage badge and adds Smart App Banner metadata for supported iOS Safari versions.
+- All App Store CTAs are active. The official listing URL in `app-store.js` activates links on FOSSOR pages and the developer homepage; static `apple-itunes-app` metadata is present on each FOSSOR page for iOS Safari.
 - Public support contact is `g.o.urensel@hotmail.com`.
 - No trackers, analytics scripts, cookies or embedded advertising are added to these static pages.
 - All navigation, marketing and policy text is localized in Turkish and English. The shared selector persists preference.
@@ -28,32 +30,19 @@ Privacy Policy URL: `https://gururorkun.github.io/fossor/privacy.html`
 
 Privacy Choices URL: `https://gururorkun.github.io/fossor/privacy.html#privacy-choices`
 
-## Release day — edit one line only
+## Published App Store listing
 
-After Apple publishes FOSSOR and provides the **verified public App Store URL**, open:
+- **Official App Store URL:** https://apps.apple.com/us/app/fossor/id6834523577
+- **Shareable short URL:** https://gururorkun.github.io/fossor/app.html
+- **App Store ID:** `6834523577`
 
-`fossor/app-store.js`
+The FOSSOR hero and footer download buttons, the navigation links across
+all three FOSSOR pages and the app badge/download action on the developer
+homepage are enabled by `fossor/app-store.js`. iOS Smart App Banner metadata
+is included statically in each FOSSOR page; the short URL redirects to the
+public Apple listing and has a visible fallback link.
 
-Change the single line:
-
-```javascript
-const APP_STORE_URL = '';
-```
-
-to:
-
-```javascript
-const APP_STORE_URL = 'https://apps.apple.com/app/idACTUAL_APP_ID';
-```
-
-Replace `idACTUAL_APP_ID` with the **real** listing identifier; this is an instructional example, not an actual URL. Commit the file to the **main** branch of `gururorkun.github.io`.
-
-This one edit automatically enables App Store buttons in the FOSSOR hero,
-footer CTA, all three FOSSOR page navigation bars and the developer
-homepage card, along with an Apple Smart App Banner on iOS. Before adding
-the link, all informational pages are fully usable; no broken App Store
-links or misleading "available now" claims are displayed.
-
-The app currently uses Unity LevelPlay + UMP for optional rewarded
-advertising and StoreKit 2 for Apple IAP. Google Mobile Ads / AdMob is
-temporarily compiled out in v0.18.2.
+The app uses Unity LevelPlay for optional rewarded advertising and StoreKit 2
+for Apple in-app purchases. Google Mobile Ads and Google UMP are not linked
+in the current v0.18.3 build. Availability of ads remains subject to
+privacy choices, regional requirements, provider fill and remote configuration.

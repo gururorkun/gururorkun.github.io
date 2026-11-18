@@ -1,11 +1,9 @@
-/* FOSSOR App Store launch configuration.
-   At launch, change ONLY the value below to the verified Apple app URL.
-   Example format: https://apps.apple.com/app/id1234567890
-   Do not use a guessed ID or the App Store Connect (private) URL. */
+/* Official FOSSOR App Store listing. One configuration activates download links
+   on the FOSSOR pages and the shared developer homepage. */
 (() => {
   'use strict';
 
-  const APP_STORE_URL = '';
+  const APP_STORE_URL = 'https://apps.apple.com/us/app/fossor/id6834523577';
 
   function verifiedAppStoreLink(value) {
     if (!value || !value.trim()) return null;
@@ -35,13 +33,7 @@
       element.hidden = true;
     });
 
-    // On the app's own pages only, activate Apple's iOS Smart App Banner.
-    if (document.body && document.body.classList.contains('fossor')) {
-      const banner = document.createElement('meta');
-      banner.name = 'apple-itunes-app';
-      banner.content = 'app-id=' + apple.id;
-      document.head.appendChild(banner);
-    }
+    // Smart App Banner metadata is declared in each FOSSOR HTML <head>.
   }
 
   if (document.readyState === 'loading') {
